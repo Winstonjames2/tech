@@ -3,7 +3,8 @@
     <head>
         <title>My Webpage!</title>
     </head>
-    <body>Hello World, Welcome to My Webpage!
+    <body>Hello World, Welcome to My Webpage!<br>
+        SELECT US!<br>
         <h1>Firstly, You need to know that this is a Git tutorial Page!</h1>
         <h2>Hello Again! Hello Again Third Times</h2>
         <h1>Hello World!!!</h1>
@@ -21,6 +22,10 @@
         <a id="come" href="#">Tap to another page </a>
     </body>
     <style>
+        body::selection{
+            background-color: green;
+            color:white;
+        }
         a::before{
             content: "Click ME - ";
             background-color: rgb(211, 111, 111);
