@@ -4,25 +4,22 @@
         <title>My Webpage!</title>
     </head>
     <body>Hello World, Welcome to My Webpage!<br>
-        SELECT US!<br>
-        <h1>Firstly, You need to know that this is a Git tutorial Page!</h1>
-        <h2>Hello Again! Hello Again Third Times</h2>
-        <h1>Hello World!!!</h1>
-        <div>
-        <input list="countries" placeholder="countries">
-            <datalist id="countries">
-                <option value="India">
-                <option value="Myanmar">
-                <option value="China">
-                <option value="Laos">
-                <option value="Thainland">
-                <option value="Singapore">
-            </datalist>
+        <div class="body">SELECT US!<br>
+            Firstly, You need to know that this is a Git tutorial Page!<br>Hello Again! Hello Again Third Times<br>Hello World!!!
         </div>
+        <input list="countries" placeholder="countries">
+        <datalist id="countries">
+            <option value="India">
+            <option value="Myanmar">
+            <option value="China">
+            <option value="Laos">
+            <option value="Thainland">
+            <option value="Singapore">
+        </datalist>
         <a id="come" href="#">Tap to another page </a>
     </body>
     <style>
-        body,h1,h2::selection{
+        .body::selection{
             background-color: green;
             color:white;
         }
