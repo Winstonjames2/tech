@@ -11,15 +11,15 @@ body{
     color:black;
     margin-bottom: 10px;
 }
-.message{
-    @extend %message
-}
 #w{
     background-color: yellow;
+    @extend %message
 }
 #e{
     background-color: red;
+    @extend %message
 }
 #m{
     background-color: lightblue;
+    @extend %message
 }
