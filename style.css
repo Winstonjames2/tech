@@ -1,9 +1,9 @@
 body {
   color: cyan;
   font-size: 2em;
-  background-color: green; }
+  background-color: rgba(91, 216, 91, 0.76); }
 
-.message {
+#w, #e, #m {
   font-size: 1em;
   color: black;
   margin-bottom: 10px; }
